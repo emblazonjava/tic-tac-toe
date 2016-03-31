@@ -2,7 +2,7 @@ This package depends on the [retro-browser](https://github.com/allisonf/retro-br
 
 It is a sample app for the RetroBrowser framework.
 
-==Installation
+#Installation
 
 This package can be distributed with distutils
 
@@ -12,7 +12,7 @@ Unzip the resultant file (found in the newly created dist folder) and, from with
 
 `python3 setup.py install`
 
-==Game Play
+#Game Play
 
 * Start the framework, passing the application package name in as the first argument:
 
@@ -33,7 +33,7 @@ eg "at tictactoe/main/index"
 * There is no indication when a game has been won but when the board is filled up, you will be notified
 that it is time for a new game
 
-==Testing
+#Testing
 
 doctest and unittest are used.
 
