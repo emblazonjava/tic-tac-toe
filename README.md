@@ -1,4 +1,4 @@
-This package depends on the [retro-browser](https://github.com/allisonf/retro-browser) package'
+This package depends on the [retro-browser](https://github.com/allisonf/retro-browser) package.
 
 It is a sample app for the RetroBrowser framework.
 
