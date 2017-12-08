@@ -2,17 +2,23 @@ This package depends on the [retro-browser](https://github.com/allisonf/retro-br
 
 It is a sample app for the RetroBrowser framework.
 
-#Installation
+# Installation
 
-This package can be distributed with distutils
+This is a Python 3 application and requires version 3.2 or greater.
 
-`python3 setup.py sdist`
+This package can be installed with pip, which comes along with Python 3.4 and above. If downloading from this 
+repository, you will need to build the distribution and then install it locally:
 
-Unzip the resultant file (found in the newly created dist folder) and, from within, execute:
+`python3 setup.py sdist --formats=zip`
 
-`python3 setup.py install`
+This will create a `dist` folder in the base directory and in it you will find a file called `TicTacToe-1.0.zip`.
 
-#Game Play
+Copy `TicTacToe-1.0.zip` to a temporary location where you can unzip it. The unzipped folder still needs
+to be installed. To install, make sure you are in the directory containing `TicTacToe-1.0.zip` and execute:
+
+`pip3 install -e TicTacToe-1.0`
+
+# Game Play
 
 * Start the framework, passing the application package name in as the first argument:
 
@@ -33,7 +39,7 @@ eg "at tictactoe/main/index"
 * There is no indication when a game has been won but when the board is filled up, you will be notified
 that it is time for a new game
 
-#Testing
+# Testing
 
 doctest and unittest are used.
 
